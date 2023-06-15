@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    color: rgb(149, 0, 255);
+    text-align: center;
+    flex-wrap: wrap;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    background-color:rgb(197, 158, 225);
+    margin: 20px;
+}
+.container{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    padding: 25px;
+    border-radius: 5px;
+    max-width: 700px;
+}
+form .input-field{
+    width: 100%;
+    margin-top: 20px;
+
+}
+form .input-field input {
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 6px;
+    width: 100%;
+    height: 25px;
+    padding: 15px;
+    margin-top: 10px;
+   
+}
+.form .column {
+    display: flex;
+    gap: 10px;
+    border-radius: 6px;
+
+    
+   
+}
+.gender-details p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.gender-input label {
+    border: #707070;
+    display: inline-block;
+    width: 10%;
+    
+}
+#check-other{
+    border: #707070;
+    margin-left:20px;
+}
+.gender .gender-details .gender-input input{
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    padding: 0px;
+   
+}
+.button button{
+    margin-top: 20px;
+    background-color: rgb(173, 85, 251);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    padding:10px;
+    cursor: pointer;
+}
+
+
+.select-box select {
+    display: flex;
+    height: 100%;
+    font-family: "Poppins",sans-serif;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: 15px;
+  }
+  form .select-box {
+    position: relative;
+    height: 40px;
+    width: 100%;
+
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 0 15px;
+  }
+form .column input{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 6px;
+
+}
+.container .form input{
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+}
+footer{
+    color: white;
+    background-color: rgb(226, 204, 245);
+}
+
+@media (max-width: 500px) 
+{
+
+    .form .column {
+      flex-wrap: wrap;
+    }
+    .gender-input label{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}*/
